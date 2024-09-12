@@ -11,6 +11,12 @@ Task: Modify the program so that it also prints the count of the Pythagorean tri
 Task: Modify the script to work with long words. We require that it prints approx. 20 randomly chosen permutations of the input word.
 It is important that the printed permutations are chosen at random, but it is not important to print exactly 20 each time.
 
+## bitcoin_price.py
+### Chapter: 115
+Task: Use the finnhub.io websockets API to retrieve in real-time data the bitcoin price from the Binance exchange. You'll need to following symbol: BINANCE:BTCUSDT. The payload is json, so use the json module in Python to transform the message to dict.
+1. Your class should have the optionto output in the console all relevant trades
+2. Implement a data structure which calculates time averages. For each one minute period (e.g. 10:00-10:01, 10:01-10:02, etc.) calculate the volume-weighted average priceof trades made during this minute. Keep in mind that there may be late-arriving data, and the messages you receive are not guaranteed to be ordered.
+
 ## convert_farenheit_to_celsius.py
 ### Chapter: 125
 Task: There is a file which contains temperatures in Celsius or Fahrenheit, one string per line. The strings are expected to look like this: 10F or -15C.
