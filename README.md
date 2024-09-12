@@ -50,8 +50,8 @@ Messages should be read and transmitted one by one until the source has no more 
 If you write actual code, make your interface as user-friendly as possible, e.g. make it fluent:
 ETL().source(source_args).sink(sink_args).run()
 
-## Script: black_jack_deck.py
-### Chapter:151
+## black_jack_deck.py
+### Chapter: 151
 Task:
 Using the following Suit class:
 classSuit(str,Enum):
@@ -63,3 +63,9 @@ define a BlackJackCard class and a Deck class so that the following code (which 
 d=Deck()
 h=Hand_Lazy(d.pop(),d.pop(),d.pop())
 print(h.total)
+
+## lamda_func.py
+### Chapter: 160
+Task:
+1. Create a lambda which returns the first item in a list.
+2. Map a lambda which applies the logistic functionto the list [-3, -5, 1, 4] . Round each number to 4 decimal places. (ermm…. that's two nested maps)
